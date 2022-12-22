@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "bebas neue";
+}
+
+.acompanhamento-vid{
+    flex-direction: column;
+    text-align: center;
+    background-image: url(./image/Tiago\ 7.jpg);
+    background-size: cover;
+    background-blend-mode:darken;
+    padding-bottom: 2%;
+}
+
+.logo{
+    width: 20vh;
+    height: 20vh;
+}
+
+.titulo{
+    color:#FFD700;
+    font-size: 6vh;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-shadow: black 20px 2px 10px ;
+    letter-spacing: 10px;
+}
+
+.video{
+    text-align: center;
+    height: 80vh;
+    width: 60vw;
+    margin: auto;
+    padding-bottom: 3%;
+}
+
+
+a{
+    display: flex;
+    flex-direction: row;
+    background-color: #479752;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: black;
+    width: 30%;
+    margin: auto;
+    padding: 1%;
+    align-items: center;
+    gap: 15%;
+    text-shadow:  3px 3px 2px black;
+    border: solid 4px 4px black;
+    border-radius: 100px;
+    
+}
+
+a:hover{
+    background-color: #38b449;
+}
+
+#icon{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.descricao-advs{
+    background-color: black;
+}
+
+.tiagOab{
+    padding-top: 3%;
+    text-align: center;
+    color: #FFD700;
+    width: 25vw;
+    height: auto;
+    border-bottom: 0.3vh solid white;
+    font-size: 120%;
+    margin: auto
+}
+
+.tiagotexto{
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    gap: 7vh;
+    margin: auto;
+}
+
+#textoTh{
+    color: white;
+    font-size: 170%;
+    text-align: justify;
+}
+
+
+#fotoTh{
+    border-radius: 50%;
+}
+
+.rafaelOab{
+    padding-top: 3%;
+    text-align: center;
+    color: #FFD700;
+    width: 25vw;
+    height: auto;
+    border-bottom: 0.3vh solid white;
+    font-size: 120%;
+    margin: auto
+}
+
+.rafaelTexto{
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    gap: 7vh;
+    margin: auto;
+    padding-bottom: 8vh;
+}
+
+#textoRafael{
+    color: white;
+    font-size: 170%;
+    text-align: justify;
+}
+
+#fotorafael{
+    border-radius: 50%;
+}
+
+.descricaoServicos{
+    height: 80vh;
+    width: 80vw;
+    margin: auto;
+    
+}
+
+h3{
+    font-size: 3.5vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 1vh;
+    border-bottom: #FFD700 solid 0.5vh;
+    height: auto;
+}
+
+.itenSuperiores{
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    padding-top: 3vw;
+    padding-left: 5vh;
+    text-align: center;
+}
+
+.itensInferiores{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    padding-top: 3vw;
+    padding-left: 5vh;
+    text-align: center;
+    
+}
+
+h4{
+    height: 10vh;
+    width: 15vw;
+    font-size: 2.5vh;
+    text-align: center;
+    padding: auto;
+    line-height: normal;
+   }
+   
+
+#revisao-mensal, #cobertura-negada,#negativa-emergencial, #negativa-urgente,#home-care, #negativa-reparadora, #erro-medico, #cancelamento-indevido{
+    height: 35vh;
+    width: 100vh;
+    
+}
+
+
+#balance, #pastaf, #calendf, #carrinho, #homeH, #negative, #person, #heart{
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+    align-items: center;
+    
+    
+}
+
+#textRev, #textCo, #textPraz, #textProced, #textHome, #textRep, #textErro, #Cancel{
+    font-size: 2.2vh;
+    text-align: justify;
+    margin-bottom: 0;
+    padding-bottom: 30vh;
+}
+
+#buttoninf{
+    margin-top: 5%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.map{
+    margin-top: 25vh;
+    background-color: black;
+}
+
+.background{
+    background-color: black;
+    text-align: center;
+}
+
+.logoinf{
+    width: 10vw;
+    height: 20vh;
+}
+
